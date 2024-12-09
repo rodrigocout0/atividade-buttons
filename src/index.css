@@ -1,0 +1,18 @@
+html, body {
+  height: 100%;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.app-container {
+  display: flex;
+  flex-direction: column;  /* Coloca os botões em uma coluna */
+  align-items: center;     /* Centraliza os botões horizontalmente */
+  gap: 80px;               /* Espaçamento entre os botões */
+  padding: 20px;           /* Espaçamento interno para evitar que os botões fiquem colados nas bordas */
+  text-align: center;      /* Opcional: centraliza o texto */
+}
+
+
